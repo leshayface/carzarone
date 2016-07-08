@@ -28,11 +28,11 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-fixed-top">
+     <nav class="navbar navbar-fixed-top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="navbar-header">
+            <div class="">
+              <div class="navbar-header col-xs-12 col-sm-5 col-md-5 col-lg-5">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
@@ -41,14 +41,14 @@
                 </button>
                 <a class="navbar-brand" href="#">Project name</a>
               </div>
-              <div id="navbar" class="navbar-collapse collapse">
+               <div id="navbar" class="navbar-collapse collapse col-xs-7">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Sell Your Car</a></li>
-                  <li><a href="#">Why Carzar?</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li>
-                    <div>+27 21 286 1670</div>
-                    <div><small>9am - 5pm</small></div>
+                  <li><a class="navText" href="#">Sell Your Car</a></li>
+                  <li><a class="navText navActive" href="#">Why Carzar?</a></li>
+                  <li><a class="navText" href="#">Careers</a></li>
+                  <li><a class="navText" href="#">Contact Us</a></li>
+                    <div class="navText">+27 21 286 1670 <br />
+                    <span style="text-align:right; color:rgba(0, 0, 0, 0.38);">9am - 5pm</span></div>
                   </li>
                 </ul>
               </div>
@@ -73,7 +73,7 @@
           </div>
         </div>
 
-        <div class="footer">
+        <div class="footer" style="background-color: #0288d1;">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <p class="text-center">
@@ -84,10 +84,30 @@
         </div>
       </div>
 
-      <div class="section" id="step_one">
+     <div class="section" id="step_two">
         <div class="container">
-          <div class="row">
-            <h3>Tell us about your car</h1>
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+               <img src="why-screen.jpg" class="img-responsive hidden-xs screen" />
+               <img src="why-iphone.png" class="img-responsive hidden-xs iPhone" />
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+              <div class="clearBoth">
+                <img src="car.png" class="img-responsive hidden-xs left whyIcon" />
+                <h4 class="text3 whyMedText" >Smooth Sale</h4>
+                <p class="text4 whySmText">When you decide to sell your beloved car, we aim to make the experience convenient and risk-free. No hassle, no haggling and competitively priced</p>
+              </div>
+
+              <div class="clearBoth">
+                <img src="car.png" class="img-responsive hidden-xs left whyIcon" />
+                <h4 class="text3 whyMedText">Reliability</h4>
+                <p class="text4 whySmText">Transparency, accuracy and decency allow us to position ourselves differently in the used car market. As a Customer-centric business, we want to prove that selling a vehicle can be pleasant and interesting, instead of a painful and frustrating experience</p>
+              </div>   
+
+              <div class="clearBoth" style="margin-bottom:80px;">
+                <img src="car.png" class="img-responsive hidden-xs left whyIcon" />
+                <h4 class="text3 whyMedText">Enthusiast Team</h4>
+                <p class="text4 whySmText">We love used cars! Our motivated and experienced team of techpreneurs and auto specialists understand that different cars have different needs. Our growing network of partners in the car trade are helping us to change the market positively</p>
+              </div> 
           </div>
         </div>
 
@@ -102,10 +122,12 @@
         </div>
       </div>
 
-      <div class="section" id="step_two">
-        <div class="container">
-          <div class="row">
 
+      <div class="section" id="step_six">
+        <div class="container">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 class="bigText">What Our Customers Have To Say</h1>
+            <h3 class="medText">We aim to please all of our customers with excellent customer service</h3>
           </div>
         </div>
 
@@ -120,35 +142,26 @@
         </div>
       </div>
 
-      <div class="section" id="step_three">
+      <div class="section" id="step_five">
         <div class="container">
           <div class="row">
 
           </div>
         </div>
 
-        <div class="footer">
+        <div class="footer" style="background-color: #fff;">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <p class="text-center">
-                <a href="#" class="moveSectionDown"><i class="material-icons">arrow_downward</i></a>
-              </p> 
+            <div class="col-xs-6">
+               <p class="footerLiLeft">©2016 CarZar. All Rights Reserved</p>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="step_four">
-        <div class="container">
-          <div class="row">
-
-          </div>
-        </div>
-
-        <div class="footer">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+            <div class="col-xs-6">
+               <ul class="nav">
+                  <li class="footerLi">Sell your Car</li>
+                  <li class="footerLi"> Why CarZar?</li>
+                  <li class="footerLi">Careers</li>
+                  <li class="footerLi">Contact Us</li>
+                  <li class="footerLi">Terms &amp; Conditions</li>
+                </ul>
             </div>
           </div>
         </div>
