@@ -1,0 +1,191 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #ffffff;
+}
+
+.navText{
+    color: rgba(0, 0, 0, 0.54);
+    font-family: "Roboto";
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 25px !important;
+    float: left;
+}
+
+.navActive{
+  border-top: 2px solid #c0ca33;
+  color:#000;
+}
+
+.navMargin{
+  margin:0;
+}
+
+.clearBoth{
+  clear:both;
+  padding-bottom: 33px;
+  padding-top: 33px;
+}
+
+
+.right{
+  float:right;
+}
+
+.left{
+  float:left;
+}
+
+.text1{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.text2{
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.text3{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.text4{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.smallImg{
+  margin-right: 25px;
+}
+
+.footerLi{
+  color: #9b9b9b;
+  float: left;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 25px;
+}
+
+/*# HOME PAGE */
+
+#home {
+  background-size: cover;
+  background-image: url(../img/home_bg.jpg);
+  background-position: 100% -50px;
+}
+
+#home h1 {
+  font-size: 52px;
+}
+
+#home h3 {
+  font-weight: 200;
+}
+
+#home img {
+  right: 0;
+  bottom: 60px;
+  height: 80%;
+  position: fixed;
+}
+
+#home,
+#step_one,
+#step_two,
+#step_four,
+#step_three {
+
+}
+
+#step_one,
+#step_three {
+  background-color: #78909c;
+}
+
+#step_two,
+#step_four {
+  background-color: #0288d1;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  /*display: none;*/
+  position: absolute;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer i {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+#home .footer,
+#step_two .footer  {
+  background-color: #78909c;
+}
+
+#step_one .footer,
+#step_three .footer {
+  background-color: #0288d1;
+}
+
+
+#home .footer i {
+  position: absolute;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/*# WHY PAGE */
+
+#why {
+    background-image: url("../why_carzar.jpg");
+    background-size: cover;
+    padding: 0px 0;
+}
+
+#why h1 {
+  font-size: 52px;
+}
+
+#why h3 {
+  font-weight: 200;
+}
+
+#why img {
+  right: 0;
+  bottom: 60px;
+  height: 80%;
+  position: fixed;
+}
