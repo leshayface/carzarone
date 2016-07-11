@@ -8,8 +8,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
 
-    <link rel="icon" href="favicon.ico">
-    
+    <!--<link rel="icon" href="favicon.ico">-->
 
     <title>CarZar</title>
 
@@ -58,10 +57,23 @@
       </nav>
     </header>
 
+    <section>
+      <div id="subnav">
+        <ul id="menu"> <!-- 'start', 'aboutCar', 'instantOffer', 'freeInspection', 'sameDay' -->
+          <li data-menuanchor="start" id="first"><a href="#first">Start</a></li>
+          <li data-menuanchor="aboutCar"><a href="#aboutCar">Step 1</a></li>
+          <li data-menuanchor="instantOffer"><a href="#instantOffer">Step 2</a></li>
+          <li data-menuanchor="freeInspection"><a href="#freeInspection">Step 3</a></li>
+          <li data-menuanchor="sameDay"><a href="#sameDay">Step 4</a></li>
+        </ul>
+      </div>
+    </section>
+    
     <div id="container">
+
       <div class="section" id="home">
         <div class="container">
-          <div class="row">
+          <div class="row offset">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <h1>Selling your car has never been easier</h1>
               <h3>Online quotes in minutes. Free inspection. Same-day payment.</h3>
@@ -70,6 +82,80 @@
               <img src="img/carzar-laptop.png" class="img-responsive hidden-xs" />
             </div>
           </div>
+          <div class="home_form">
+            <div class="form_container">
+            <h2 class="home_form_section home_form_hidden">Tell us about your car</h2>
+            <div class="form">
+            <form action="" id="car-details-form" novalidate="novalidate">
+              <div class="home_form_section form_section home_form_hidden">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded=",MaterialTextfield">
+                  <input class="mdl-textfield__input" type="text" id="licence-plate" name="license-plate">
+                  <label class="mdl-textfield__label" for="licence-plate">Licence plate/ VIN number (optional)</label>
+                  <i class="material-icons clear-input"></i>
+
+                  <div class="plate-tooltip">
+                    <div id="tt1" class="icon tooltip-icon" tabindex="0">
+                    <span>i</span>
+                    <object class="grey" data="/assets/imgs/circle-progress-grey.svg" type="image/svg+xml"></object>
+                  </div>
+
+                  <div class="mdl-tooltip" for="tt1" data-upgraded=",MaterialTooltip">
+                    Sharing your plate or VIN number will allow us to speed up the inspection process of your vehicle
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="home_form_section form_section">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label multi-ui is-upgraded" data-upgraded=",MaterialTextfield">
+                  <div class="ui-widget">
+                    <input class="mdl-textfield__input ui-autocomplete-input" type="text" id="make-model" name="make-model" autocomplete="off">
+                    <label class="mdl-textfield__label" for="make-model">Make and Model</label>
+                  </div>
+                  <i class="material-icons clear-input ui-clear clear-form"></i>
+                </div>
+                <div class="results-container" id="make-results"></div>
+              </div>
+
+            <div class="home_form_section form_section">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-disabled is-upgraded" data-upgraded=",MaterialTextfield">
+                <input class="mdl-textfield__input ui-autocomplete-input" type="text" id="year" name="year" disabled="" autocomplete="off">
+                <label class="mdl-textfield__label" for="year">Year</label>
+                <i class="material-icons clear-input"></i>
+              </div>
+            <div class="results-container" id="year-results"></div>
+          </div>
+          
+          <div class="home_form_section form_section home_form_hidden">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-disabled is-upgraded" data-upgraded=",MaterialTextfield">
+              <input class="mdl-textfield__input ui-autocomplete-input" type="text" id="variant" name="variant" disabled="" autocomplete="off">
+              <label class="mdl-textfield__label" for="variant">Variant</label>
+              <i class="material-icons clear-input"></i>
+            </div>
+            <div class="results-container" id="variant-results"></div>
+          </div>
+          
+          <div class="home_form_section form_section home_form_hidden">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded=",MaterialTextfield">
+            <input class="mdl-textfield__input" type="text" id="mileage" name="mileage">
+            <label class="mdl-textfield__label" for="mileage">Mileage</label>
+            <i class="material-icons clear-input"></i>
+          </div>
+        </div>
+        
+        <div class="form_section">
+          <button class="mdl-button mdl-js-button mdl-button--raised next" data-upgraded=",MaterialButton">
+            Get a free Quote
+          </button>
+        </div>
+        </form>
+        </div>
+        
+        <div id="vehicle-notfound">
+          <p><a href="/contact-us">Can't find your car? Contact us</a></p>
+        </div>
+        </div>
+        </div>
         </div>
 
         <div class="footer">
