@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $('#container').fullpage({
     menu: '#menu',
-		anchors: ['start', 'aboutCar', 'instantOffer', 'freeInspection', 'sameDay']
+		anchors: ['start', 'aboutCar', 'instantOffer', 'freeInspection', 'sameDay'],
+    slidesNavigation: true
   });
 
   $("#home h3").fitText(0.8, { maxFontSize: '24px' });

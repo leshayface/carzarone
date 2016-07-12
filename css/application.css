@@ -660,3 +660,45 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label,
     max-width: 600px; }
 .mdl-textfield__expandable-holder .mdl-textfield__label:after {
     bottom: 0; }
+
+/* slider boxes */
+#step_six h1 {
+  margin: 2em 0 0 0;
+}
+#step_six h3 {
+  margin: 0.2em 0 0 0;
+}
+.fp-slides{
+  position: absolute;
+}
+.fp-slides .item {
+  margin: 1em;
+  width:400px;
+  height:400px;
+  box-shadow: 0 1.2em 1em 0 rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  border-radius:5px;
+  position: relative;
+}
+.fp-slides .item h5 {
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  left: 0.5em;
+  color:black;
+  font-size: 4em;
+}
+.fp-slides .item p {
+  display: block;
+  position: absolute;
+  top: 3em;
+  left: 1em;
+  color:black;
+  font-size: 2em;
+}
+.fp-slidesNav.bottom {
+  bottom:5em;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white;
+}
