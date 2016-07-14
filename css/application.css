@@ -17,6 +17,15 @@ form {
     display: block;
     margin-top: 0em;
 }
+.centerImg{
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 30px;
+}
+
+.navShadow{
+   box-shadow: 1px 0 7px #000;
+}
 .navText{
     color: rgba(0, 0, 0, 0.54);
     font-family: "Roboto";
@@ -143,11 +152,22 @@ form {
 }
 
 #home h1 {
-  font-size: 52px;
+   color: #fff;
+    font-family: "Helvetica","Arial",sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -3.3px;
+    line-height: 51px;
+    margin-bottom: 12px;
 }
 
 #home h3 {
-  font-weight: 200;
+  color: #fff;
+    font-family: "Roboto";
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
 }
 
 #home img {
@@ -227,11 +247,23 @@ form {
 }
 
 #why h1 {
-  font-size: 52px;
+  font-size: 65px;
+   font-family: "Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    letter-spacing: -3.3px;
+    line-height: 1;
+    text-align: center;
+    float: left;
 }
 
 #why h3 {
-  font-weight: 200;
+  color: #fff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 0;
+    text-align: left;
 }
 
 #why img {
@@ -524,6 +556,204 @@ textfield.is-disabled .mdl-textfield__input {
   margin-bottom: 20px;
 }
 
+.staffName{
+   color: #1b1b1b;
+    font-family: ""Roboto","Helvetica","Arial",sans-serif";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin: 10px 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.position{
+    color: #1b1b1b;
+    font-family: ""Roboto","Helvetica","Arial",sans-serif";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+.description{
+   color: #9b9b9b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.testiImg{
+  width:70px;
+  margin: 15px;
+  float:left;
+}
+
+/*# CAREERS PAGE */
+
+#careers {
+    background-image: url("../careers-header2.jpg");
+    background-size: cover;
+    padding: 0px 0;
+}
+
+#careers h1 {
+   color: #fff;
+    font-family: "Helvetica","Arial",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.3px;
+    line-height: 51px;
+    margin-bottom: 12px;
+}
+
+#careers h3 {
+  color: #fff;
+    font-family: "Roboto";
+    font-size: 21px !important;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.careersTxt1{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.careersTxt2{
+  color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.careersTxt3{
+   color: #fff;
+   font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin: 24px 0 10px;
+    text-align: center;
+}
+
+.careersTxt4{
+  color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+.clearBoth2{
+   clear: both;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footerCareers{
+  background-color: #78909c;
+}
+
+.footerCareers1{
+  background-color: #0288d1;
+}
+
+/*# CONTACT PAGE */
+
+#contact {
+    background-image: url("../contact2.jpg");
+    background-size: cover;
+    padding: 0px 0;
+}
+
+#contact h1 {
+   color: #fff;
+    font-family: "Helvetica","Arial",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.3px;
+    line-height: 51px;
+    margin-bottom: 12px;
+}
+
+#contact h3 {
+  color: #fff;
+    font-family: "Roboto";
+    font-size: 21px !important;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contactTxt1{
+  font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.contactTxt2{
+  color: rgba(0, 0, 0, 0.54);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.contactTxt3{
+    color: rgba(0, 0, 0, 0.54);
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    margin-top:20px;
+}
+
+.contactTxt4{
+    color: #1b1b1b;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+.clearBoth2{
+   clear: both;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footerContact{
+  background-color: #78909c;
+}
+
+.footerContact{
+  background-color: #0288d1;
+}
+
 /* MDL FORMATTING */
 
 .mdl-textfield {
@@ -533,6 +763,7 @@ textfield.is-disabled .mdl-textfield__input {
     box-sizing: border-box;
     width: 300px;
     max-width: 100%;
+    color: black;
     margin: 0;
     padding: 20px 0; }
 .mdl-textfield .mdl-button {
@@ -561,7 +792,7 @@ textfield.is-disabled .mdl-textfield__input {
     width: 100%;
     background: none;
     text-align: left;
-    color: inherit; }
+    color: black; }
 .mdl-textfield__input[type="number"] {
     -moz-appearance: textfield; }
 .mdl-textfield__input[type="number"]::-webkit-inner-spin-button, .mdl-textfield__input[type="number"]::-webkit-outer-spin-button {
@@ -661,6 +892,8 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label,
 .mdl-textfield__expandable-holder .mdl-textfield__label:after {
     bottom: 0; }
 
+
+
 /* slider boxes */
 #step_six h1 {
   margin: 2em 0 0 0;
@@ -672,29 +905,32 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label,
   position: absolute;
 }
 .fp-slides .item {
-  margin: 1em;
-  width:400px;
-  height:400px;
-  box-shadow: 0 1.2em 1em 0 rgba(0, 0, 0, 0.4);
-  background-color: #fff;
-  border-radius:5px;
-  position: relative;
+   background-color: #fff;
+  border-radius: 2px;
+   box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.4);
+    float: left;
+    height: 300px;
+    margin: 1em;
+    position: relative;
+    width: 350px;
+    margin-top:8em;
 }
 .fp-slides .item h5 {
-  display: block;
-  position: absolute;
-  top: 0.2em;
-  left: 0.5em;
-  color:black;
-  font-size: 4em;
+   color: #1b1b1b;
+    float: left;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    margin-top: 15px;
 }
 .fp-slides .item p {
-  display: block;
-  position: absolute;
-  top: 3em;
-  left: 1em;
-  color:black;
-  font-size: 2em;
+  color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 16px;
 }
 .fp-slidesNav.bottom {
   bottom:5em;
